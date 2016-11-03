@@ -25,11 +25,10 @@ rm textdump.tmp
 
 AWK='
   {
-   v = $1
    if (getline line < "textdump2.tmp") {
      printf("%s ", line);
    }
-   printf("%s\n", v);}'
+   printf("%s\n", $0);}'
 
 awk "${AWK}" $1 
 
