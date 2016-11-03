@@ -1,5 +1,9 @@
 # remlocker
 
+## Reason
+
+Make sources uneditable by sane human beings
+
 ## Usage
 
     ./comgen.sh input.c text.txt
