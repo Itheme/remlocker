@@ -68,4 +68,7 @@ figlet
     /*   ___       */    return 0;
     /*  / _ \      */ }
    
+## Limitations
+
+Script will break existing multiline /* */ comments
   
